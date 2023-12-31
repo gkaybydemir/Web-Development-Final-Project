@@ -1,0 +1,31 @@
+{
+    "courses":[
+    
+    {
+        "courseId":1,
+        "courseName": "Database Design",
+        "instructorName": "Tuğba Süzek",
+        "acts" : 6,
+        "midtermPercent":50,
+        "finalPercent":50,
+        "pointScale" : 7
+    },
+    {
+        "courseId":2,
+        "courseName": "Artificial Intelligence",
+        "instructorName": "Özgür Kılıç",
+        "acts" : 6,
+        "midtermPercent":40,
+        "finalPercent":60,
+        "pointScale": 7
+    },
+    {
+        "courseId":3,
+        "courseName": "Web Development and Programming",
+        "instructorName": "Bekir Taner Dinçer",
+        "acts" : 8,
+        "midtermPercent":30,
+        "finalPercent":70,
+        "pointScale":10
+    }
+]}

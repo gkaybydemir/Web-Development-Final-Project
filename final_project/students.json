@@ -1,0 +1,690 @@
+{
+    "students": [
+    {
+        "id": 200709001,
+        "name": "Serdar",
+        "surname": "Yıldız",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 85,
+                "finalScore": 75
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 78,
+                "finalScore": 82
+            }
+        ]
+    },
+    {
+        "id": 200709003,
+        "name": "Deniz",
+        "surname": "Bilgin",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 65,
+                "finalScore": 70
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 80,
+                "finalScore": 75
+            }
+        ]
+    },
+    {
+        "id": 200709010,
+        "name": "Erkin",
+        "surname": "Alkan",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 88,
+                "finalScore": 40
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 60,
+                "finalScore": 85
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 60,
+                "finalScore": 85
+            }
+        ]
+    },
+    {
+        "id": 200709032,
+        "name": "Suleyman",
+        "surname": "Sultan",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 30,
+                "finalScore": 50
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 80,
+                "finalScore": 90
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709033,
+        "name": "Fatih",
+        "surname": "Terim",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 45,
+                "finalScore": 46
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 38,
+                "finalScore": 83
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 26,
+                "finalScore": 66
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709034,
+        "name": "Enner",
+        "surname": "Valencia",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 29,
+                "finalScore": 47
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 11,
+                "finalScore": 67
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709060,
+        "name": "Işıl",
+        "surname": "Çolak",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 55,
+                "finalScore": 70
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 60,
+                "finalScore": 65
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709075,
+        "name": "Ahmet",
+        "surname": "Nalbantoglu",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 40,
+                "finalScore": 30
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 45,
+                "finalScore": 85
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709015,
+        "name": "Bilal",
+        "surname": "Deniz",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 55,
+                "finalScore": 48
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 48,
+                "finalScore": 67
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709008,
+        "name": "Gökay",
+        "surname": "Baydemir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 70,
+                "finalScore": 75
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 85,
+                "finalScore": 65
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709061,
+        "name": "Aydın",
+        "surname": "Baydemir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 98,
+                "finalScore": 97
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 65,
+                "finalScore": 70
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709062,
+        "name": "Gökhan",
+        "surname": "Kürkçü",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 78,
+                "finalScore": 71
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 58,
+                "finalScore": 98
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709063,
+        "name": "Elif",
+        "surname": "Candan",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 85,
+                "finalScore": 48
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 45,
+                "finalScore": 67
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709064,
+        "name": "Thomas",
+        "surname": "Shelby",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 15,
+                "finalScore": 45
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 55,
+                "finalScore": 22
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709065,
+        "name": "Tony",
+        "surname": "Montana",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 35,
+                "finalScore": 15
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 22,
+                "finalScore": 38
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709066,
+        "name": "Tyler",
+        "surname": "Durden",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 40,
+                "finalScore": 48
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 60,
+                "finalScore": 15
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709067,
+        "name": "Ramiz",
+        "surname": "Karaeski",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 60,
+                "finalScore": 66
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 50,
+                "finalScore": 38
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709068,
+        "name": "Cihangir",
+        "surname": "Ceyhan",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 48,
+                "finalScore": 36
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 55,
+                "finalScore": 75
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709069,
+        "name": "Abdullah",
+        "surname": "Ozgul",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 55,
+                "finalScore": 47
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 36,
+                "finalScore": 72
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709070,
+        "name": "Ecevit",
+        "surname": "Beyaz",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 68,
+                "finalScore": 77
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 50,
+                "finalScore": 78
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709071,
+        "name": "Ahu",
+        "surname": "Alan",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 49,
+                "finalScore": 53
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 56,
+                "finalScore": 57
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 55,
+                "finalScore": 42
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709072,
+        "name": "Bilal",
+        "surname": "Göregen",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 82,
+                "finalScore": 34
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 64,
+                "finalScore": 42
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 92,
+                "finalScore": 66
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709073,
+        "name": "Eren",
+        "surname": "Elmalı",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 74,
+                "finalScore": 61
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 62,
+                "finalScore": 64
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 75,
+                "finalScore": 62
+            }
+        ]
+    },
+    {
+        "id": 200709074,
+        "name": "Ricardo",
+        "surname": "Quaresma",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 77,
+                "finalScore": 77
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 7,
+                "finalScore": 77
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 77,
+                "finalScore": 77
+            }
+        ]
+    },
+    {
+        "id": 200709076,
+        "name": "Marcelo",
+        "surname": "Guedes",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 22,
+                "finalScore": 53
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 56,
+                "finalScore": 57
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 55,
+                "finalScore": 42
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709077,
+        "name": "Wesley",
+        "surname": "Sneijder",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 25,
+                "finalScore": 46
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 35,
+                "finalScore": 62
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 44,
+                "finalScore": 72
+            }
+        ]
+    },
+    {
+        "id": 200709078,
+        "name": "Baran",
+        "surname": "Isci",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 65,
+                "finalScore": 75
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 78,
+                "finalScore": 65
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 98,
+                "finalScore": 97
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709079,
+        "name": "Berfin",
+        "surname": "Ozdemir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 30,
+                "finalScore": 38
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 37,
+                "finalScore": 62
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 64,
+                "finalScore": 52
+            }
+        ]
+    },
+    {
+        "id": 200709080,
+        "name": "Aleyna",
+        "surname": "Gurer",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 43,
+                "finalScore": 88
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 47,
+                "finalScore": 55
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 66,
+                "finalScore": 68
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709081,
+        "name": "Mustafa",
+        "surname": "Korkmaz",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 55,
+                "finalScore": 40
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 42,
+                "finalScore": 76
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 70,
+                "finalScore": 75
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709082,
+        "name": "Hakan",
+        "surname": "Demir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 18,
+                "finalScore": 95
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 33,
+                "finalScore": 65
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 37,
+                "finalScore": 64
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709083,
+        "name": "Burak",
+        "surname": "Baygul",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 36,
+                "finalScore": 68
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 33,
+                "finalScore": 20
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 36,
+                "finalScore": 22
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709084,
+        "name": "Eren",
+        "surname": "Tasdemir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 23,
+                "finalScore": 48
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 66,
+                "finalScore": 58
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 33,
+                "finalScore": 45
+            }
+        ]
+    }
+    ,
+    {
+        "id": 200709085,
+        "name": "Fatoş",
+        "surname": "Baydemir",
+        "courses": [
+            {
+                "courseName": "Web Development and Programming",
+                "midtermScore": 88,
+                "finalScore": 48
+            },
+            {
+                "courseName": "Database Design",
+                "midtermScore": 67,
+                "finalScore": 90
+            },
+            {
+                "courseName": "Artificial Intelligence",
+                "midtermScore": 56,
+                "finalScore": 77
+            }
+        ]
+    }
+    
+    
+    
+]}

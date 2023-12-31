@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- Javacsript -->
+      <script type="module" src="script.js" defer></script>
+     <script type="module" src="student.js" defer></script>
+     <script type="module" src="course.js" defer></script>
+     <script type="module" src="localStorageOperation.js" defer></script>
+     <script type="module" src="calculateGpa.js" defer></script>
+     <script type="module" src="addStudent.js" defer></script>
+    <!-- Student Data -->
+    <script
+      src="students.json"
+      type="application/json"
+      id="studentData"
+    ></script>
+    <!-- Course Data -->
+    <script
+      src="courses.json"
+      type="application/json"
+      id="courseData"
+    ></script>
+    <!-- For icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- LEFT SIDE HEADER -->
+      <div class="left_side_header">
+        <img src="images/uni_logo.jpg" alt="" />
+        <p class="uni_name">BJK University</p>
+      </div>
+      <!-- RIGHT SIDE HEADER -->
+      <div class="right_side_header">
+        <strong> HELLO ADMIN</strong>
+      </div>
+    
+    </header>
+    
+
+    <!-- SECTION -->
+
+    <section>
+      <!-- LEFT SECTION -->
+      <div class="left_section">
+        <div>
+          <h2>
+            <a href="#info" 
+              >Info
+              <span class="material-symbols-outlined">
+                <!-- I add google icon for left side links on span -->
+                double_arrow
+              </span></a
+            >
+          </h2>
+        </div>
+        <div>
+          <h2>
+            <a href="#addStudent" 
+              >Add Student
+              <span class="material-symbols-outlined"> double_arrow </span></a
+            >
+          </h2>
+        </div>
+        <div>
+          <h2>
+            <a href="#selectCourse"
+              >Courses
+              <span class="material-symbols-outlined"> double_arrow </span></a
+            >
+          </h2>
+        </div>
+        <div>
+          <h2>
+            <a href="#students" 
+              >Students
+              <span class="material-symbols-outlined"> double_arrow </span></a
+            >
+          </h2>
+        </div>
+
+        <!-- Add course to the system -->
+        <!-- Select a course  -->
+        <!-- Students -->
+      </div>
+
+      <!-- RIGHT SECTION -->
+      <!-- -->
+      <div class="right_section">
+ 
+        <!-- INFO -->
+        <div class="right_section_info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus, doloribus, fugiat animi porro harum minima cum a expedita explicabo dolor dolorum repellendus quos odio quae dicta impedit et maxime saepe, quia voluptatem laboriosam. Voluptas amet dolorem non aspernatur assumenda odio maxime, iusto officiis, laboriosam, hic enim fugit quaerat. Voluptatibus architecto ad asperiores modi mollitia laudantium maxime ducimus eius labore facere officiis, rerum illum nobis voluptate similique ipsa repellendus assumenda eaque. Laboriosam, dolorem. Iusto error, repellendus quos sed earum placeat totam quod.
+        </div>
+
+        <!-- STUDENTS -->
+        
+        <div class="right_section_students" >
+          <div class="search_student">
+            <input type="text" required/>
+            <button class="search_button">Search By Name</button>
+          </div>
+          <div class="delete_student">
+            <input type="text" required/>
+            <button class="delete_button">Delete By ID</button>
+          </div>
+          <!-- TABLE FOR STUDENTS -->
+          <div class="table_wrapper_students">
+        <table border="1">
+          <!-- WITH BORDER DESIGN IS GOOD -->
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name-Surname</th>
+                <th>GPA</th>
+                <th>Courses</th>
+                <th>Update Student</th>
+              </tr>
+            </thead>
+            <tbody id="studentTableBody"></tbody>
+          </table>
+
+          </div>
+          
+        </div>
+        <!-- ADD STUDENTS -->
+        <div class="right_section_addStudent">
+
+            <div class="course_select">
+              <label for="courseSelection">Choose a course for add a student:</label>
+              <select id="courseSelection">
+                <!-- fill with Javascript operations -->
+                 <option value=""></option> 
+              </select>
+          </div>
+
+        </div>
+
+        <!-- COURSES -->
+        <div class="right_section_courses">
+            <!-- ADD COURSE -->
+          <div class="add_course">
+            <h2>Add Course</h2>
+        
+            <form id="course_add_form" class="form-flex">
+                <div class="input-group">
+                    <label for="course_name">Course Name:</label>
+                    <input type="text" id="course_name" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="course_id">Course ID:</label>
+                    <input type="number" id="course_id" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="course_instructor">Instructor Name:</label>
+                    <input type="text" id="course_instructor" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="course_midterm_final">Please enter 'midterm percent,final percent':</label>
+                    <input type="text" id="course_midterm_final" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="course_acts">ACTS:</label>
+                    <input type="number" id="course_acts" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="course_pointScale">Point Scale:</label>
+                    <select id="course_pointScale">
+                        <option value="7">7</option>
+                        <option value="10">10</option>
+                      
+                    </select>
+                </div>
+        
+                <button type="button" id="accept_button">Accept</button>
+            </form>
+        </div>
+          
+          <!-- COURSE TABLE -->
+          <div class="table_wrapper_courses">
+            <table border="1">
+                <thead>
+                  <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Instructor Name</th>
+                    <th>Midterm and Final Percents</th>
+                    <th>ACTS</th>
+                  </tr>
+                </thead>
+                <tbody id="courseTableBody"></tbody>
+              </table>
+    
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- THEY ARE icons for instagram facebook and twitter -->
+      <div class="footer-links">
+        <ul>
+          <li>
+            <i class="fa-brands fa-instagram"></i><a href="#"> Instagram</a>
+          </li>
+          <li><i class="fa-brands fa-twitter"></i><a href="#"> X</a></li>
+          <li>
+            <i class="fa-brands fa-facebook"></i><a href="#"> Facebook</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <!--copyright icon -->
+        <p>&copy; 1903 BJK University. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
